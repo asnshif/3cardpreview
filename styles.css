@@ -1,0 +1,98 @@
+.body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    font-size:15px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+*div{
+    box-sizing:border-box;
+}
+
+.container{
+    margin:auto;
+    padding: 0;
+    display:flex;
+    flex-direction: row;
+    max-width: 50%;
+
+}
+
+.container h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    display:block;
+    color: hsl(0, 0%, 95%);
+    
+}
+
+.container p{
+    font-family: 'Lexend Deca',  sans-serif ;
+    font-weight: 400;
+    grid-column: 3;
+    display:block;
+    color:hsla(0, 0%, 100%, 0.75);
+
+    
+}
+
+.container img{
+    padding: 2rem 0;
+
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 33.33%;
+    border-radius: 1rem 0 0 1rem;;
+
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 33.33%
+}
+
+.luxary {
+    background-color: hsl(179, 100%, 13%);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 33.33%;
+    border-radius: 0 1rem 1rem 0;
+
+}
+
+.button{
+    font-family:'Lexend Deca',  sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    width:fit-content;
+    padding: 0.8rem 1.75rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+
+}
+
+.suv .button {
+    color: hsl(184, 100%, 22%);
+}
+
+.sedans .button {
+    color: hsl(31, 77%, 52%);
+}
+
+.luxary .button {
+    color: hsl(179, 100%, 13%);
+}
